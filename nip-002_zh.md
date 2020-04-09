@@ -23,16 +23,19 @@ Created: 2020-04-09
 
 ### 增加communication_visable
 
-communication_visable 为bool类型，如果值为false，则表示不展示在客户端通讯服务器列表中。
+communication_visable 为bool类型。
 
-如果该字段不存在于extension中，则默认表示展示在客户端通讯服务器列表中。
+如果值为false，则表示不展示在客户端通讯服务器列表中。
+
+如果值为true或者字段不存在，则表示展示在客户端通讯服务器列表中。
 
 ### 增加application_visable
 
-application_visable 为bool类型，如果值为false，则表示不展示在客户端应用服务器列表中。
+application_visable 为bool类型。
 
-如果该字段不存在于extension中，则默认表示展示在客户端应用服务器列表中。
+如果值为false，则表示不展示在客户端应用服务器列表中。
 
+如果值为true或者字段不存在，则表示展示在客户端应用服务器列表中。
 
 ## 示例
 
